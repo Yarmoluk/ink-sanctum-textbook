@@ -1,0 +1,101 @@
+site_name: Ink Sanctum
+site_description: Tattoo Aftercare & Preparation Professional Guide
+site_url: https://yarmoluk.github.io/ink-sanctum-textbook/
+
+repo_name: Yarmoluk/ink-sanctum-textbook
+repo_url: https://github.com/Yarmoluk/ink-sanctum-textbook
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Yarmoluk/ink-sanctum-textbook
+
+copyright: Copyright &copy; 2026 Ink Sanctum
+
+nav:
+  - Home: index.md
+  - Course Description: course-description.md
+  - Chapters:
+    - Overview: chapters/index.md
+    - 1. Skin Anatomy Fundamentals: chapters/01-skin-anatomy-fundamentals/index.md
+    - 2. The Healing Process: chapters/02-healing-process/index.md
+    - 3. Hygiene & Aftercare Products: chapters/03-hygiene-aftercare-products/index.md
+    - 4. Washing & Moisturizing: chapters/04-washing-moisturizing/index.md
+    - 5. Healing Signs & Warnings: chapters/05-healing-signs-warnings/index.md
+    - 6. Hydration & Nutrition: chapters/06-hydration-nutrition/index.md
+    - 7. Physical Preparation & Clothing: chapters/07-physical-preparation-clothing/index.md
+    - 8. Pain Management: chapters/08-pain-management/index.md
+    - 9. Health Screening: chapters/09-health-screening/index.md
+    - 10. Activity Restrictions: chapters/10-activity-restrictions/index.md
+    - 11. Sun Protection & UV Care: chapters/11-sun-protection-uv-care/index.md
+    - 12. Long-Term Preservation: chapters/12-long-term-preservation/index.md
+  - FAQ: faq.md
+  - Glossary: glossary.md
+  - Learning Graph:
+    - Overview: learning-graph/index.md
+    - Concept List: learning-graph/concept-list.md
+    - Book Metrics: learning-graph/book-metrics.md
+    - Chapter Metrics: learning-graph/chapter-metrics.md
