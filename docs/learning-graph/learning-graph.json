@@ -1,0 +1,2290 @@
+{
+  "metadata": {
+    "title": "Ink Sanctum Tattoo Aftercare & Preparation Professional Guide",
+    "description": "A comprehensive learning graph covering tattoo preparation, aftercare protocols, healing phases, infection prevention, product selection, and long-term maintenance for adult continuing education.",
+    "creator": "Ink Sanctum",
+    "date": "2026-01-25",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "FOUND": {
+      "classifierName": "Foundation Concepts",
+      "color": "LightCoral",
+      "font": {
+        "color": "white"
+      }
+    },
+    "HEAL": {
+      "classifierName": "Healing Phases",
+      "color": "PeachPuff",
+      "font": {
+        "color": "black"
+      }
+    },
+    "HYG": {
+      "classifierName": "Hygiene & Prevention",
+      "color": "LightYellow",
+      "font": {
+        "color": "black"
+      }
+    },
+    "WASH": {
+      "classifierName": "Washing Protocols",
+      "color": "Honeydew",
+      "font": {
+        "color": "black"
+      }
+    },
+    "MOIST": {
+      "classifierName": "Moisturizing Care",
+      "color": "PaleTurquoise",
+      "font": {
+        "color": "black"
+      }
+    },
+    "PROD": {
+      "classifierName": "Product Knowledge",
+      "color": "Lavender",
+      "font": {
+        "color": "black"
+      }
+    },
+    "SIGN": {
+      "classifierName": "Healing Signs",
+      "color": "LavenderBlush",
+      "font": {
+        "color": "black"
+      }
+    },
+    "REST": {
+      "classifierName": "Activity Restrictions",
+      "color": "Thistle",
+      "font": {
+        "color": "black"
+      }
+    },
+    "PREP": {
+      "classifierName": "Pre-Session Prep",
+      "color": "PaleGreen",
+      "font": {
+        "color": "black"
+      }
+    },
+    "PAIN": {
+      "classifierName": "Pain Management",
+      "color": "PowderBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "HLTH": {
+      "classifierName": "Health Factors",
+      "color": "Aquamarine",
+      "font": {
+        "color": "black"
+      }
+    },
+    "LONG": {
+      "classifierName": "Long-Term Care",
+      "color": "Plum",
+      "font": {
+        "color": "white"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Tattoo Aftercare",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 2,
+      "label": "Wound Healing",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 3,
+      "label": "Skin Anatomy",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 4,
+      "label": "Epidermis",
+      "group": "FOUND"
+    },
+    {
+      "id": 5,
+      "label": "Dermis",
+      "group": "FOUND"
+    },
+    {
+      "id": 6,
+      "label": "Tattoo Ink Placement",
+      "group": "FOUND"
+    },
+    {
+      "id": 7,
+      "label": "Healing Timeline",
+      "group": "HEAL"
+    },
+    {
+      "id": 8,
+      "label": "Surface Healing Phase",
+      "group": "HEAL"
+    },
+    {
+      "id": 9,
+      "label": "Deep Healing Phase",
+      "group": "HEAL"
+    },
+    {
+      "id": 10,
+      "label": "Inflammation Stage",
+      "group": "HEAL"
+    },
+    {
+      "id": 11,
+      "label": "Proliferation Stage",
+      "group": "HEAL"
+    },
+    {
+      "id": 12,
+      "label": "Remodeling Stage",
+      "group": "HEAL"
+    },
+    {
+      "id": 13,
+      "label": "Fresh Tattoo Care",
+      "group": "HEAL"
+    },
+    {
+      "id": 14,
+      "label": "First 24 Hours Care",
+      "group": "HEAL"
+    },
+    {
+      "id": 15,
+      "label": "Week One Protocol",
+      "group": "HEAL"
+    },
+    {
+      "id": 16,
+      "label": "Week Two Protocol",
+      "group": "HEAL"
+    },
+    {
+      "id": 17,
+      "label": "Week Three Protocol",
+      "group": "HEAL"
+    },
+    {
+      "id": 18,
+      "label": "Week Four Protocol",
+      "group": "HEAL"
+    },
+    {
+      "id": 19,
+      "label": "Complete Healing Signs",
+      "group": "HEAL"
+    },
+    {
+      "id": 20,
+      "label": "Infection Prevention",
+      "group": "HYG"
+    },
+    {
+      "id": 21,
+      "label": "Bacterial Contamination",
+      "group": "HYG"
+    },
+    {
+      "id": 22,
+      "label": "Hygiene Practices",
+      "group": "HYG"
+    },
+    {
+      "id": 23,
+      "label": "Handwashing Technique",
+      "group": "HYG"
+    },
+    {
+      "id": 24,
+      "label": "Clean Environment",
+      "group": "HYG"
+    },
+    {
+      "id": 25,
+      "label": "Wound Exposure Risks",
+      "group": "HYG"
+    },
+    {
+      "id": 26,
+      "label": "Washing Techniques",
+      "group": "WASH"
+    },
+    {
+      "id": 27,
+      "label": "First Wash Timing",
+      "group": "WASH"
+    },
+    {
+      "id": 28,
+      "label": "Water Temperature",
+      "group": "WASH"
+    },
+    {
+      "id": 29,
+      "label": "Fragrance-Free Soap",
+      "group": "WASH"
+    },
+    {
+      "id": 30,
+      "label": "Gentle Cleansing Motion",
+      "group": "WASH"
+    },
+    {
+      "id": 31,
+      "label": "Pat Drying Method",
+      "group": "WASH"
+    },
+    {
+      "id": 32,
+      "label": "Washing Frequency",
+      "group": "WASH"
+    },
+    {
+      "id": 33,
+      "label": "Over-Washing Risks",
+      "group": "WASH"
+    },
+    {
+      "id": 34,
+      "label": "Under-Washing Risks",
+      "group": "WASH"
+    },
+    {
+      "id": 35,
+      "label": "Moisturizing Techniques",
+      "group": "MOIST"
+    },
+    {
+      "id": 36,
+      "label": "Ointment Application",
+      "group": "MOIST"
+    },
+    {
+      "id": 37,
+      "label": "Thin Layer Method",
+      "group": "MOIST"
+    },
+    {
+      "id": 38,
+      "label": "Moisturizing Frequency",
+      "group": "MOIST"
+    },
+    {
+      "id": 39,
+      "label": "Over-Moisturizing Risks",
+      "group": "MOIST"
+    },
+    {
+      "id": 40,
+      "label": "Dry Healing Method",
+      "group": "MOIST"
+    },
+    {
+      "id": 41,
+      "label": "Wet Healing Method",
+      "group": "MOIST"
+    },
+    {
+      "id": 42,
+      "label": "Aftercare Products",
+      "group": "PROD"
+    },
+    {
+      "id": 43,
+      "label": "Aquaphor",
+      "group": "PROD"
+    },
+    {
+      "id": 44,
+      "label": "Hustle Butter",
+      "group": "PROD"
+    },
+    {
+      "id": 45,
+      "label": "A&D Ointment",
+      "group": "PROD"
+    },
+    {
+      "id": 46,
+      "label": "Unscented Lotion",
+      "group": "PROD"
+    },
+    {
+      "id": 47,
+      "label": "Tattoo-Specific Products",
+      "group": "PROD"
+    },
+    {
+      "id": 48,
+      "label": "Product Ingredients",
+      "group": "PROD"
+    },
+    {
+      "id": 49,
+      "label": "Fragrance Avoidance",
+      "group": "PROD"
+    },
+    {
+      "id": 50,
+      "label": "Petroleum-Based Products",
+      "group": "PROD"
+    },
+    {
+      "id": 51,
+      "label": "Water-Based Lotions",
+      "group": "PROD"
+    },
+    {
+      "id": 52,
+      "label": "Natural Alternatives",
+      "group": "PROD"
+    },
+    {
+      "id": 53,
+      "label": "Product Allergies",
+      "group": "PROD"
+    },
+    {
+      "id": 54,
+      "label": "Patch Testing",
+      "group": "PROD"
+    },
+    {
+      "id": 55,
+      "label": "Normal Healing Signs",
+      "group": "SIGN"
+    },
+    {
+      "id": 56,
+      "label": "Peeling Phase",
+      "group": "SIGN"
+    },
+    {
+      "id": 57,
+      "label": "Flaking Skin",
+      "group": "SIGN"
+    },
+    {
+      "id": 58,
+      "label": "Itching Sensation",
+      "group": "SIGN"
+    },
+    {
+      "id": 59,
+      "label": "Dull Color Phase",
+      "group": "SIGN"
+    },
+    {
+      "id": 60,
+      "label": "Scab Formation",
+      "group": "SIGN"
+    },
+    {
+      "id": 61,
+      "label": "Light Scabbing",
+      "group": "SIGN"
+    },
+    {
+      "id": 62,
+      "label": "Plasma Weeping",
+      "group": "SIGN"
+    },
+    {
+      "id": 63,
+      "label": "Redness Reduction",
+      "group": "SIGN"
+    },
+    {
+      "id": 64,
+      "label": "Swelling Timeline",
+      "group": "SIGN"
+    },
+    {
+      "id": 65,
+      "label": "Bruising Around Tattoo",
+      "group": "SIGN"
+    },
+    {
+      "id": 66,
+      "label": "Abnormal Healing Signs",
+      "group": "SIGN"
+    },
+    {
+      "id": 67,
+      "label": "Excessive Swelling",
+      "group": "SIGN"
+    },
+    {
+      "id": 68,
+      "label": "Red Streaking",
+      "group": "SIGN"
+    },
+    {
+      "id": 69,
+      "label": "Pus Discharge",
+      "group": "SIGN"
+    },
+    {
+      "id": 70,
+      "label": "Fever Symptoms",
+      "group": "SIGN"
+    },
+    {
+      "id": 71,
+      "label": "Hot Skin Sensation",
+      "group": "SIGN"
+    },
+    {
+      "id": 72,
+      "label": "Foul Odor",
+      "group": "SIGN"
+    },
+    {
+      "id": 73,
+      "label": "Prolonged Pain",
+      "group": "SIGN"
+    },
+    {
+      "id": 74,
+      "label": "Spreading Redness",
+      "group": "SIGN"
+    },
+    {
+      "id": 75,
+      "label": "Allergic Reaction Signs",
+      "group": "SIGN"
+    },
+    {
+      "id": 76,
+      "label": "Raised Skin Bumps",
+      "group": "SIGN"
+    },
+    {
+      "id": 77,
+      "label": "Severe Itching",
+      "group": "SIGN"
+    },
+    {
+      "id": 78,
+      "label": "Ink Rejection",
+      "group": "SIGN"
+    },
+    {
+      "id": 79,
+      "label": "Medical Attention Triggers",
+      "group": "SIGN"
+    },
+    {
+      "id": 80,
+      "label": "Infection Symptoms",
+      "group": "SIGN"
+    },
+    {
+      "id": 81,
+      "label": "When to See a Doctor",
+      "group": "SIGN"
+    },
+    {
+      "id": 82,
+      "label": "Urgent Care Situations",
+      "group": "SIGN"
+    },
+    {
+      "id": 83,
+      "label": "Prohibited Activities",
+      "group": "REST"
+    },
+    {
+      "id": 84,
+      "label": "Swimming Restriction",
+      "group": "REST"
+    },
+    {
+      "id": 85,
+      "label": "Bathtub Soaking",
+      "group": "REST"
+    },
+    {
+      "id": 86,
+      "label": "Hot Tub Avoidance",
+      "group": "REST"
+    },
+    {
+      "id": 87,
+      "label": "Ocean Water Exposure",
+      "group": "REST"
+    },
+    {
+      "id": 88,
+      "label": "Pool Chlorine Risks",
+      "group": "REST"
+    },
+    {
+      "id": 89,
+      "label": "Direct Sun Exposure",
+      "group": "REST"
+    },
+    {
+      "id": 90,
+      "label": "Tanning Beds",
+      "group": "REST"
+    },
+    {
+      "id": 91,
+      "label": "Scratching Prevention",
+      "group": "REST"
+    },
+    {
+      "id": 92,
+      "label": "Picking Scabs",
+      "group": "REST"
+    },
+    {
+      "id": 93,
+      "label": "Tight Clothing Friction",
+      "group": "REST"
+    },
+    {
+      "id": 94,
+      "label": "Exercise During Healing",
+      "group": "REST"
+    },
+    {
+      "id": 95,
+      "label": "Sweat Management",
+      "group": "REST"
+    },
+    {
+      "id": 96,
+      "label": "Heavy Lifting Impact",
+      "group": "REST"
+    },
+    {
+      "id": 97,
+      "label": "Pre-Appointment Prep",
+      "group": "PREP",
+      "shape": "box"
+    },
+    {
+      "id": 98,
+      "label": "Hydration Importance",
+      "group": "PREP"
+    },
+    {
+      "id": 99,
+      "label": "Water Intake Guidelines",
+      "group": "PREP"
+    },
+    {
+      "id": 100,
+      "label": "Hydration Timeline",
+      "group": "PREP"
+    },
+    {
+      "id": 101,
+      "label": "Skin Hydration Benefits",
+      "group": "PREP"
+    },
+    {
+      "id": 102,
+      "label": "Nutrition for Healing",
+      "group": "PREP"
+    },
+    {
+      "id": 103,
+      "label": "Protein Requirements",
+      "group": "PREP"
+    },
+    {
+      "id": 104,
+      "label": "Vitamin C Benefits",
+      "group": "PREP"
+    },
+    {
+      "id": 105,
+      "label": "Zinc for Wound Healing",
+      "group": "PREP"
+    },
+    {
+      "id": 106,
+      "label": "Foods to Avoid",
+      "group": "PREP"
+    },
+    {
+      "id": 107,
+      "label": "Alcohol Avoidance",
+      "group": "PREP"
+    },
+    {
+      "id": 108,
+      "label": "Caffeine Moderation",
+      "group": "PREP"
+    },
+    {
+      "id": 109,
+      "label": "Anti-Inflammatory Foods",
+      "group": "PREP"
+    },
+    {
+      "id": 110,
+      "label": "Pre-Session Meals",
+      "group": "PREP"
+    },
+    {
+      "id": 111,
+      "label": "Blood Sugar Stability",
+      "group": "PREP"
+    },
+    {
+      "id": 112,
+      "label": "Skin Preparation",
+      "group": "PREP"
+    },
+    {
+      "id": 113,
+      "label": "Exfoliation Before Tattoo",
+      "group": "PREP"
+    },
+    {
+      "id": 114,
+      "label": "Shaving Tattoo Area",
+      "group": "PREP"
+    },
+    {
+      "id": 115,
+      "label": "Moisturizing Before",
+      "group": "PREP"
+    },
+    {
+      "id": 116,
+      "label": "Clean Skin Importance",
+      "group": "PREP"
+    },
+    {
+      "id": 117,
+      "label": "No Lotions Day-Of",
+      "group": "PREP"
+    },
+    {
+      "id": 118,
+      "label": "Sun Exposure Before",
+      "group": "PREP"
+    },
+    {
+      "id": 119,
+      "label": "Sunburn Prevention",
+      "group": "PREP"
+    },
+    {
+      "id": 120,
+      "label": "Clothing Strategies",
+      "group": "PREP"
+    },
+    {
+      "id": 121,
+      "label": "Loose Fitting Clothes",
+      "group": "PREP"
+    },
+    {
+      "id": 122,
+      "label": "Dark Colored Fabrics",
+      "group": "PREP"
+    },
+    {
+      "id": 123,
+      "label": "Breathable Materials",
+      "group": "PREP"
+    },
+    {
+      "id": 124,
+      "label": "Cotton Recommendations",
+      "group": "PREP"
+    },
+    {
+      "id": 125,
+      "label": "Clothes for Placement",
+      "group": "PREP"
+    },
+    {
+      "id": 126,
+      "label": "Arm Tattoo Clothing",
+      "group": "PREP"
+    },
+    {
+      "id": 127,
+      "label": "Leg Tattoo Clothing",
+      "group": "PREP"
+    },
+    {
+      "id": 128,
+      "label": "Torso Tattoo Clothing",
+      "group": "PREP"
+    },
+    {
+      "id": 129,
+      "label": "Back Tattoo Clothing",
+      "group": "PREP"
+    },
+    {
+      "id": 130,
+      "label": "Sleeping Positions",
+      "group": "PREP"
+    },
+    {
+      "id": 131,
+      "label": "Clean Sheets Protocol",
+      "group": "PREP"
+    },
+    {
+      "id": 132,
+      "label": "Pain Management",
+      "group": "PAIN"
+    },
+    {
+      "id": 133,
+      "label": "Pain Expectation",
+      "group": "PAIN"
+    },
+    {
+      "id": 134,
+      "label": "Pain Tolerance Factors",
+      "group": "PAIN"
+    },
+    {
+      "id": 135,
+      "label": "Numbing Creams",
+      "group": "PAIN"
+    },
+    {
+      "id": 136,
+      "label": "OTC Pain Relievers",
+      "group": "PAIN"
+    },
+    {
+      "id": 137,
+      "label": "Ibuprofen Caution",
+      "group": "PAIN"
+    },
+    {
+      "id": 138,
+      "label": "Acetaminophen Use",
+      "group": "PAIN"
+    },
+    {
+      "id": 139,
+      "label": "Breathing Techniques",
+      "group": "PAIN"
+    },
+    {
+      "id": 140,
+      "label": "Distraction Methods",
+      "group": "PAIN"
+    },
+    {
+      "id": 141,
+      "label": "Music During Session",
+      "group": "PAIN"
+    },
+    {
+      "id": 142,
+      "label": "Conversation Benefits",
+      "group": "PAIN"
+    },
+    {
+      "id": 143,
+      "label": "Break Requests",
+      "group": "PAIN"
+    },
+    {
+      "id": 144,
+      "label": "Pain by Body Area",
+      "group": "PAIN"
+    },
+    {
+      "id": 145,
+      "label": "Sensitive Areas",
+      "group": "PAIN"
+    },
+    {
+      "id": 146,
+      "label": "Less Painful Areas",
+      "group": "PAIN"
+    },
+    {
+      "id": 147,
+      "label": "Health Screening",
+      "group": "HLTH"
+    },
+    {
+      "id": 148,
+      "label": "Medical Conditions",
+      "group": "HLTH"
+    },
+    {
+      "id": 149,
+      "label": "Diabetes Considerations",
+      "group": "HLTH"
+    },
+    {
+      "id": 150,
+      "label": "Immune Disorders",
+      "group": "HLTH"
+    },
+    {
+      "id": 151,
+      "label": "Bleeding Disorders",
+      "group": "HLTH"
+    },
+    {
+      "id": 152,
+      "label": "Skin Conditions",
+      "group": "HLTH"
+    },
+    {
+      "id": 153,
+      "label": "Eczema Management",
+      "group": "HLTH"
+    },
+    {
+      "id": 154,
+      "label": "Psoriasis Concerns",
+      "group": "HLTH"
+    },
+    {
+      "id": 155,
+      "label": "Medication Effects",
+      "group": "HLTH"
+    },
+    {
+      "id": 156,
+      "label": "Blood Thinners",
+      "group": "HLTH"
+    },
+    {
+      "id": 157,
+      "label": "Immunosuppressants",
+      "group": "HLTH"
+    },
+    {
+      "id": 158,
+      "label": "Accutane Restrictions",
+      "group": "HLTH"
+    },
+    {
+      "id": 159,
+      "label": "Pregnancy Cautions",
+      "group": "HLTH"
+    },
+    {
+      "id": 160,
+      "label": "Illness Timing",
+      "group": "HLTH"
+    },
+    {
+      "id": 161,
+      "label": "Recent Surgery",
+      "group": "HLTH"
+    },
+    {
+      "id": 162,
+      "label": "Vaccination Timing",
+      "group": "HLTH"
+    },
+    {
+      "id": 163,
+      "label": "Allergy Disclosure",
+      "group": "HLTH"
+    },
+    {
+      "id": 164,
+      "label": "Session Readiness",
+      "group": "HLTH"
+    },
+    {
+      "id": 165,
+      "label": "Preparation Checklist",
+      "group": "HLTH"
+    },
+    {
+      "id": 166,
+      "label": "Rest Before Session",
+      "group": "HLTH"
+    },
+    {
+      "id": 167,
+      "label": "Mental Preparation",
+      "group": "HLTH"
+    },
+    {
+      "id": 168,
+      "label": "Eating Before Session",
+      "group": "HLTH"
+    },
+    {
+      "id": 169,
+      "label": "UV Protection",
+      "group": "LONG"
+    },
+    {
+      "id": 170,
+      "label": "Sunscreen for Tattoos",
+      "group": "LONG"
+    },
+    {
+      "id": 171,
+      "label": "SPF Requirements",
+      "group": "LONG"
+    },
+    {
+      "id": 172,
+      "label": "Mineral Sunscreen",
+      "group": "LONG"
+    },
+    {
+      "id": 173,
+      "label": "Chemical Sunscreen",
+      "group": "LONG"
+    },
+    {
+      "id": 174,
+      "label": "Reapplication Schedule",
+      "group": "LONG"
+    },
+    {
+      "id": 175,
+      "label": "Sun Protective Clothing",
+      "group": "LONG"
+    },
+    {
+      "id": 176,
+      "label": "UV Damage Effects",
+      "group": "LONG"
+    },
+    {
+      "id": 177,
+      "label": "Fading Prevention",
+      "group": "LONG"
+    },
+    {
+      "id": 178,
+      "label": "Color Longevity",
+      "group": "LONG"
+    },
+    {
+      "id": 179,
+      "label": "Long-Term Maintenance",
+      "group": "LONG"
+    },
+    {
+      "id": 180,
+      "label": "Ongoing Moisturizing",
+      "group": "LONG"
+    },
+    {
+      "id": 181,
+      "label": "Skin Health Routine",
+      "group": "LONG"
+    },
+    {
+      "id": 182,
+      "label": "Annual Skin Checks",
+      "group": "LONG"
+    },
+    {
+      "id": 183,
+      "label": "Touch-Up Planning",
+      "group": "LONG"
+    },
+    {
+      "id": 184,
+      "label": "Touch-Up Timing",
+      "group": "LONG"
+    },
+    {
+      "id": 185,
+      "label": "Color Refresh",
+      "group": "LONG"
+    },
+    {
+      "id": 186,
+      "label": "Line Touch-Ups",
+      "group": "LONG"
+    },
+    {
+      "id": 187,
+      "label": "Aging Skin Effects",
+      "group": "LONG"
+    },
+    {
+      "id": 188,
+      "label": "Weight Changes Impact",
+      "group": "LONG"
+    },
+    {
+      "id": 189,
+      "label": "Stretch Mark Prevention",
+      "group": "LONG"
+    },
+    {
+      "id": 190,
+      "label": "Scar Tissue Care",
+      "group": "LONG"
+    },
+    {
+      "id": 191,
+      "label": "Multiple Tattoo Care",
+      "group": "LONG"
+    },
+    {
+      "id": 192,
+      "label": "Session Spacing",
+      "group": "LONG"
+    },
+    {
+      "id": 193,
+      "label": "Adjacent Tattoo Healing",
+      "group": "LONG"
+    },
+    {
+      "id": 194,
+      "label": "Cover-Up Aftercare",
+      "group": "LONG"
+    },
+    {
+      "id": 195,
+      "label": "Personalized Care Plans",
+      "group": "LONG"
+    },
+    {
+      "id": 196,
+      "label": "Body Area Protocols",
+      "group": "LONG"
+    },
+    {
+      "id": 197,
+      "label": "Size-Based Aftercare",
+      "group": "LONG"
+    },
+    {
+      "id": 198,
+      "label": "Style-Based Care",
+      "group": "LONG"
+    },
+    {
+      "id": 199,
+      "label": "Seasonal Considerations",
+      "group": "LONG"
+    },
+    {
+      "id": 200,
+      "label": "Aftercare Troubleshooting",
+      "group": "LONG"
+    }
+  ],
+  "edges": [
+    {
+      "from": 4,
+      "to": 3
+    },
+    {
+      "from": 5,
+      "to": 3
+    },
+    {
+      "from": 5,
+      "to": 4
+    },
+    {
+      "from": 6,
+      "to": 3
+    },
+    {
+      "from": 6,
+      "to": 5
+    },
+    {
+      "from": 7,
+      "to": 2
+    },
+    {
+      "from": 7,
+      "to": 6
+    },
+    {
+      "from": 8,
+      "to": 7
+    },
+    {
+      "from": 9,
+      "to": 7
+    },
+    {
+      "from": 9,
+      "to": 8
+    },
+    {
+      "from": 10,
+      "to": 2
+    },
+    {
+      "from": 10,
+      "to": 7
+    },
+    {
+      "from": 11,
+      "to": 10
+    },
+    {
+      "from": 12,
+      "to": 11
+    },
+    {
+      "from": 13,
+      "to": 1
+    },
+    {
+      "from": 13,
+      "to": 7
+    },
+    {
+      "from": 14,
+      "to": 13
+    },
+    {
+      "from": 15,
+      "to": 14
+    },
+    {
+      "from": 16,
+      "to": 15
+    },
+    {
+      "from": 17,
+      "to": 16
+    },
+    {
+      "from": 18,
+      "to": 17
+    },
+    {
+      "from": 19,
+      "to": 9
+    },
+    {
+      "from": 19,
+      "to": 12
+    },
+    {
+      "from": 19,
+      "to": 18
+    },
+    {
+      "from": 20,
+      "to": 1
+    },
+    {
+      "from": 20,
+      "to": 2
+    },
+    {
+      "from": 21,
+      "to": 20
+    },
+    {
+      "from": 22,
+      "to": 20
+    },
+    {
+      "from": 22,
+      "to": 21
+    },
+    {
+      "from": 23,
+      "to": 22
+    },
+    {
+      "from": 24,
+      "to": 22
+    },
+    {
+      "from": 25,
+      "to": 20
+    },
+    {
+      "from": 25,
+      "to": 21
+    },
+    {
+      "from": 26,
+      "to": 1
+    },
+    {
+      "from": 26,
+      "to": 22
+    },
+    {
+      "from": 27,
+      "to": 14
+    },
+    {
+      "from": 27,
+      "to": 26
+    },
+    {
+      "from": 28,
+      "to": 26
+    },
+    {
+      "from": 29,
+      "to": 26
+    },
+    {
+      "from": 29,
+      "to": 42
+    },
+    {
+      "from": 30,
+      "to": 26
+    },
+    {
+      "from": 30,
+      "to": 28
+    },
+    {
+      "from": 31,
+      "to": 26
+    },
+    {
+      "from": 31,
+      "to": 30
+    },
+    {
+      "from": 32,
+      "to": 26
+    },
+    {
+      "from": 32,
+      "to": 15
+    },
+    {
+      "from": 33,
+      "to": 32
+    },
+    {
+      "from": 34,
+      "to": 32
+    },
+    {
+      "from": 35,
+      "to": 1
+    },
+    {
+      "from": 35,
+      "to": 26
+    },
+    {
+      "from": 36,
+      "to": 35
+    },
+    {
+      "from": 36,
+      "to": 42
+    },
+    {
+      "from": 37,
+      "to": 36
+    },
+    {
+      "from": 38,
+      "to": 35
+    },
+    {
+      "from": 38,
+      "to": 15
+    },
+    {
+      "from": 39,
+      "to": 38
+    },
+    {
+      "from": 40,
+      "to": 35
+    },
+    {
+      "from": 41,
+      "to": 35
+    },
+    {
+      "from": 41,
+      "to": 36
+    },
+    {
+      "from": 42,
+      "to": 1
+    },
+    {
+      "from": 43,
+      "to": 42
+    },
+    {
+      "from": 43,
+      "to": 50
+    },
+    {
+      "from": 44,
+      "to": 42
+    },
+    {
+      "from": 45,
+      "to": 42
+    },
+    {
+      "from": 45,
+      "to": 50
+    },
+    {
+      "from": 46,
+      "to": 42
+    },
+    {
+      "from": 46,
+      "to": 51
+    },
+    {
+      "from": 47,
+      "to": 42
+    },
+    {
+      "from": 48,
+      "to": 42
+    },
+    {
+      "from": 49,
+      "to": 48
+    },
+    {
+      "from": 50,
+      "to": 48
+    },
+    {
+      "from": 51,
+      "to": 48
+    },
+    {
+      "from": 52,
+      "to": 48
+    },
+    {
+      "from": 53,
+      "to": 48
+    },
+    {
+      "from": 53,
+      "to": 75
+    },
+    {
+      "from": 54,
+      "to": 53
+    },
+    {
+      "from": 55,
+      "to": 7
+    },
+    {
+      "from": 55,
+      "to": 19
+    },
+    {
+      "from": 56,
+      "to": 8
+    },
+    {
+      "from": 56,
+      "to": 55
+    },
+    {
+      "from": 57,
+      "to": 56
+    },
+    {
+      "from": 58,
+      "to": 55
+    },
+    {
+      "from": 58,
+      "to": 56
+    },
+    {
+      "from": 59,
+      "to": 55
+    },
+    {
+      "from": 59,
+      "to": 57
+    },
+    {
+      "from": 60,
+      "to": 10
+    },
+    {
+      "from": 60,
+      "to": 55
+    },
+    {
+      "from": 61,
+      "to": 60
+    },
+    {
+      "from": 62,
+      "to": 10
+    },
+    {
+      "from": 62,
+      "to": 14
+    },
+    {
+      "from": 63,
+      "to": 10
+    },
+    {
+      "from": 63,
+      "to": 55
+    },
+    {
+      "from": 64,
+      "to": 10
+    },
+    {
+      "from": 64,
+      "to": 55
+    },
+    {
+      "from": 65,
+      "to": 55
+    },
+    {
+      "from": 65,
+      "to": 64
+    },
+    {
+      "from": 66,
+      "to": 55
+    },
+    {
+      "from": 67,
+      "to": 64
+    },
+    {
+      "from": 67,
+      "to": 66
+    },
+    {
+      "from": 68,
+      "to": 66
+    },
+    {
+      "from": 68,
+      "to": 80
+    },
+    {
+      "from": 69,
+      "to": 66
+    },
+    {
+      "from": 69,
+      "to": 80
+    },
+    {
+      "from": 70,
+      "to": 66
+    },
+    {
+      "from": 70,
+      "to": 80
+    },
+    {
+      "from": 71,
+      "to": 66
+    },
+    {
+      "from": 71,
+      "to": 67
+    },
+    {
+      "from": 72,
+      "to": 66
+    },
+    {
+      "from": 72,
+      "to": 69
+    },
+    {
+      "from": 73,
+      "to": 66
+    },
+    {
+      "from": 74,
+      "to": 66
+    },
+    {
+      "from": 74,
+      "to": 68
+    },
+    {
+      "from": 75,
+      "to": 66
+    },
+    {
+      "from": 76,
+      "to": 75
+    },
+    {
+      "from": 77,
+      "to": 58
+    },
+    {
+      "from": 77,
+      "to": 75
+    },
+    {
+      "from": 78,
+      "to": 6
+    },
+    {
+      "from": 78,
+      "to": 75
+    },
+    {
+      "from": 79,
+      "to": 66
+    },
+    {
+      "from": 80,
+      "to": 20
+    },
+    {
+      "from": 80,
+      "to": 66
+    },
+    {
+      "from": 81,
+      "to": 79
+    },
+    {
+      "from": 81,
+      "to": 80
+    },
+    {
+      "from": 82,
+      "to": 81
+    },
+    {
+      "from": 83,
+      "to": 1
+    },
+    {
+      "from": 83,
+      "to": 7
+    },
+    {
+      "from": 84,
+      "to": 83
+    },
+    {
+      "from": 84,
+      "to": 25
+    },
+    {
+      "from": 85,
+      "to": 83
+    },
+    {
+      "from": 85,
+      "to": 25
+    },
+    {
+      "from": 86,
+      "to": 83
+    },
+    {
+      "from": 86,
+      "to": 85
+    },
+    {
+      "from": 87,
+      "to": 84
+    },
+    {
+      "from": 88,
+      "to": 84
+    },
+    {
+      "from": 89,
+      "to": 83
+    },
+    {
+      "from": 89,
+      "to": 169
+    },
+    {
+      "from": 90,
+      "to": 89
+    },
+    {
+      "from": 91,
+      "to": 58
+    },
+    {
+      "from": 91,
+      "to": 83
+    },
+    {
+      "from": 92,
+      "to": 60
+    },
+    {
+      "from": 92,
+      "to": 91
+    },
+    {
+      "from": 93,
+      "to": 83
+    },
+    {
+      "from": 93,
+      "to": 120
+    },
+    {
+      "from": 94,
+      "to": 83
+    },
+    {
+      "from": 95,
+      "to": 94
+    },
+    {
+      "from": 96,
+      "to": 94
+    },
+    {
+      "from": 98,
+      "to": 97
+    },
+    {
+      "from": 99,
+      "to": 98
+    },
+    {
+      "from": 100,
+      "to": 98
+    },
+    {
+      "from": 100,
+      "to": 99
+    },
+    {
+      "from": 101,
+      "to": 98
+    },
+    {
+      "from": 101,
+      "to": 3
+    },
+    {
+      "from": 102,
+      "to": 97
+    },
+    {
+      "from": 102,
+      "to": 2
+    },
+    {
+      "from": 103,
+      "to": 102
+    },
+    {
+      "from": 104,
+      "to": 102
+    },
+    {
+      "from": 105,
+      "to": 102
+    },
+    {
+      "from": 106,
+      "to": 102
+    },
+    {
+      "from": 107,
+      "to": 97
+    },
+    {
+      "from": 107,
+      "to": 106
+    },
+    {
+      "from": 108,
+      "to": 106
+    },
+    {
+      "from": 109,
+      "to": 102
+    },
+    {
+      "from": 110,
+      "to": 102
+    },
+    {
+      "from": 110,
+      "to": 111
+    },
+    {
+      "from": 111,
+      "to": 102
+    },
+    {
+      "from": 112,
+      "to": 97
+    },
+    {
+      "from": 112,
+      "to": 3
+    },
+    {
+      "from": 113,
+      "to": 112
+    },
+    {
+      "from": 114,
+      "to": 112
+    },
+    {
+      "from": 115,
+      "to": 112
+    },
+    {
+      "from": 115,
+      "to": 35
+    },
+    {
+      "from": 116,
+      "to": 112
+    },
+    {
+      "from": 116,
+      "to": 22
+    },
+    {
+      "from": 117,
+      "to": 112
+    },
+    {
+      "from": 117,
+      "to": 115
+    },
+    {
+      "from": 118,
+      "to": 112
+    },
+    {
+      "from": 118,
+      "to": 169
+    },
+    {
+      "from": 119,
+      "to": 118
+    },
+    {
+      "from": 120,
+      "to": 97
+    },
+    {
+      "from": 121,
+      "to": 120
+    },
+    {
+      "from": 122,
+      "to": 120
+    },
+    {
+      "from": 123,
+      "to": 120
+    },
+    {
+      "from": 123,
+      "to": 121
+    },
+    {
+      "from": 124,
+      "to": 123
+    },
+    {
+      "from": 125,
+      "to": 120
+    },
+    {
+      "from": 126,
+      "to": 125
+    },
+    {
+      "from": 127,
+      "to": 125
+    },
+    {
+      "from": 128,
+      "to": 125
+    },
+    {
+      "from": 129,
+      "to": 125
+    },
+    {
+      "from": 130,
+      "to": 120
+    },
+    {
+      "from": 130,
+      "to": 129
+    },
+    {
+      "from": 131,
+      "to": 22
+    },
+    {
+      "from": 131,
+      "to": 130
+    },
+    {
+      "from": 132,
+      "to": 97
+    },
+    {
+      "from": 133,
+      "to": 132
+    },
+    {
+      "from": 134,
+      "to": 132
+    },
+    {
+      "from": 134,
+      "to": 133
+    },
+    {
+      "from": 135,
+      "to": 132
+    },
+    {
+      "from": 136,
+      "to": 132
+    },
+    {
+      "from": 137,
+      "to": 136
+    },
+    {
+      "from": 137,
+      "to": 156
+    },
+    {
+      "from": 138,
+      "to": 136
+    },
+    {
+      "from": 139,
+      "to": 132
+    },
+    {
+      "from": 140,
+      "to": 132
+    },
+    {
+      "from": 141,
+      "to": 140
+    },
+    {
+      "from": 142,
+      "to": 140
+    },
+    {
+      "from": 143,
+      "to": 132
+    },
+    {
+      "from": 143,
+      "to": 133
+    },
+    {
+      "from": 144,
+      "to": 132
+    },
+    {
+      "from": 144,
+      "to": 3
+    },
+    {
+      "from": 145,
+      "to": 144
+    },
+    {
+      "from": 146,
+      "to": 144
+    },
+    {
+      "from": 147,
+      "to": 97
+    },
+    {
+      "from": 148,
+      "to": 147
+    },
+    {
+      "from": 149,
+      "to": 148
+    },
+    {
+      "from": 149,
+      "to": 2
+    },
+    {
+      "from": 150,
+      "to": 148
+    },
+    {
+      "from": 150,
+      "to": 20
+    },
+    {
+      "from": 151,
+      "to": 148
+    },
+    {
+      "from": 152,
+      "to": 148
+    },
+    {
+      "from": 152,
+      "to": 3
+    },
+    {
+      "from": 153,
+      "to": 152
+    },
+    {
+      "from": 154,
+      "to": 152
+    },
+    {
+      "from": 155,
+      "to": 147
+    },
+    {
+      "from": 156,
+      "to": 155
+    },
+    {
+      "from": 156,
+      "to": 151
+    },
+    {
+      "from": 157,
+      "to": 155
+    },
+    {
+      "from": 157,
+      "to": 150
+    },
+    {
+      "from": 158,
+      "to": 155
+    },
+    {
+      "from": 158,
+      "to": 152
+    },
+    {
+      "from": 159,
+      "to": 147
+    },
+    {
+      "from": 160,
+      "to": 147
+    },
+    {
+      "from": 161,
+      "to": 147
+    },
+    {
+      "from": 161,
+      "to": 2
+    },
+    {
+      "from": 162,
+      "to": 147
+    },
+    {
+      "from": 163,
+      "to": 147
+    },
+    {
+      "from": 163,
+      "to": 75
+    },
+    {
+      "from": 164,
+      "to": 97
+    },
+    {
+      "from": 164,
+      "to": 147
+    },
+    {
+      "from": 165,
+      "to": 164
+    },
+    {
+      "from": 166,
+      "to": 164
+    },
+    {
+      "from": 167,
+      "to": 164
+    },
+    {
+      "from": 168,
+      "to": 110
+    },
+    {
+      "from": 168,
+      "to": 164
+    },
+    {
+      "from": 169,
+      "to": 1
+    },
+    {
+      "from": 170,
+      "to": 169
+    },
+    {
+      "from": 170,
+      "to": 19
+    },
+    {
+      "from": 171,
+      "to": 170
+    },
+    {
+      "from": 172,
+      "to": 170
+    },
+    {
+      "from": 173,
+      "to": 170
+    },
+    {
+      "from": 174,
+      "to": 170
+    },
+    {
+      "from": 174,
+      "to": 171
+    },
+    {
+      "from": 175,
+      "to": 169
+    },
+    {
+      "from": 176,
+      "to": 169
+    },
+    {
+      "from": 176,
+      "to": 6
+    },
+    {
+      "from": 177,
+      "to": 176
+    },
+    {
+      "from": 177,
+      "to": 170
+    },
+    {
+      "from": 178,
+      "to": 177
+    },
+    {
+      "from": 178,
+      "to": 179
+    },
+    {
+      "from": 179,
+      "to": 1
+    },
+    {
+      "from": 179,
+      "to": 19
+    },
+    {
+      "from": 180,
+      "to": 179
+    },
+    {
+      "from": 180,
+      "to": 35
+    },
+    {
+      "from": 181,
+      "to": 179
+    },
+    {
+      "from": 181,
+      "to": 180
+    },
+    {
+      "from": 182,
+      "to": 179
+    },
+    {
+      "from": 183,
+      "to": 179
+    },
+    {
+      "from": 184,
+      "to": 183
+    },
+    {
+      "from": 184,
+      "to": 19
+    },
+    {
+      "from": 185,
+      "to": 183
+    },
+    {
+      "from": 185,
+      "to": 178
+    },
+    {
+      "from": 186,
+      "to": 183
+    },
+    {
+      "from": 187,
+      "to": 179
+    },
+    {
+      "from": 187,
+      "to": 3
+    },
+    {
+      "from": 188,
+      "to": 179
+    },
+    {
+      "from": 188,
+      "to": 187
+    },
+    {
+      "from": 189,
+      "to": 188
+    },
+    {
+      "from": 190,
+      "to": 179
+    },
+    {
+      "from": 190,
+      "to": 2
+    },
+    {
+      "from": 191,
+      "to": 179
+    },
+    {
+      "from": 192,
+      "to": 191
+    },
+    {
+      "from": 192,
+      "to": 7
+    },
+    {
+      "from": 193,
+      "to": 191
+    },
+    {
+      "from": 193,
+      "to": 192
+    },
+    {
+      "from": 194,
+      "to": 191
+    },
+    {
+      "from": 194,
+      "to": 13
+    },
+    {
+      "from": 195,
+      "to": 179
+    },
+    {
+      "from": 196,
+      "to": 195
+    },
+    {
+      "from": 196,
+      "to": 144
+    },
+    {
+      "from": 197,
+      "to": 195
+    },
+    {
+      "from": 197,
+      "to": 7
+    },
+    {
+      "from": 198,
+      "to": 195
+    },
+    {
+      "from": 199,
+      "to": 195
+    },
+    {
+      "from": 199,
+      "to": 169
+    },
+    {
+      "from": 200,
+      "to": 66
+    },
+    {
+      "from": 200,
+      "to": 195
+    }
+  ]
+}
