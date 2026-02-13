@@ -27,3 +27,7 @@ Thumbs.db
 # Environment
 .env
 .env.local
+
+# Claude Code workflow
+.claude/
+CLAUDE.md
