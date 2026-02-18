@@ -1,0 +1,201 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Tattoo Aftercare,,FOUND
+2,Wound Healing,,FOUND
+3,Skin Anatomy,,FOUND
+4,Epidermis,3,FOUND
+5,Dermis,3|4,FOUND
+6,Tattoo Ink Placement,3|5,FOUND
+7,Healing Timeline,2|6,HEAL
+8,Surface Healing Phase,7,HEAL
+9,Deep Healing Phase,7|8,HEAL
+10,Inflammation Stage,2|7,HEAL
+11,Proliferation Stage,10,HEAL
+12,Remodeling Stage,11,HEAL
+13,Fresh Tattoo Care,1|7,HEAL
+14,First 24 Hours Care,13,HEAL
+15,Week One Protocol,14,HEAL
+16,Week Two Protocol,15,HEAL
+17,Week Three Protocol,16,HEAL
+18,Week Four Protocol,17,HEAL
+19,Complete Healing Signs,9|12|18,HEAL
+20,Infection Prevention,1|2,HYG
+21,Bacterial Contamination,20,HYG
+22,Hygiene Practices,20|21,HYG
+23,Handwashing Technique,22,HYG
+24,Clean Environment,22,HYG
+25,Wound Exposure Risks,20|21,HYG
+26,Washing Techniques,1|22,WASH
+27,First Wash Timing,14|26,WASH
+28,Water Temperature,26,WASH
+29,Fragrance-Free Soap,26|42,WASH
+30,Gentle Cleansing Motion,26|28,WASH
+31,Pat Drying Method,26|30,WASH
+32,Washing Frequency,26|15,WASH
+33,Over-Washing Risks,32,WASH
+34,Under-Washing Risks,32,WASH
+35,Moisturizing Techniques,1|26,MOIST
+36,Ointment Application,35|42,MOIST
+37,Thin Layer Method,36,MOIST
+38,Moisturizing Frequency,35|15,MOIST
+39,Over-Moisturizing Risks,38,MOIST
+40,Dry Healing Method,35,MOIST
+41,Wet Healing Method,35|36,MOIST
+42,Aftercare Products,1,PROD
+43,Aquaphor,42|50,PROD
+44,Hustle Butter,42,PROD
+45,A&D Ointment,42|50,PROD
+46,Unscented Lotion,42|51,PROD
+47,Tattoo-Specific Products,42,PROD
+48,Product Ingredients,42,PROD
+49,Fragrance Avoidance,48,PROD
+50,Petroleum-Based Products,48,PROD
+51,Water-Based Lotions,48,PROD
+52,Natural Alternatives,48,PROD
+53,Product Allergies,48|75,PROD
+54,Patch Testing,53,PROD
+55,Normal Healing Signs,7|19,SIGN
+56,Peeling Phase,8|55,SIGN
+57,Flaking Skin,56,SIGN
+58,Itching Sensation,55|56,SIGN
+59,Dull Color Phase,55|57,SIGN
+60,Scab Formation,10|55,SIGN
+61,Light Scabbing,60,SIGN
+62,Plasma Weeping,10|14,SIGN
+63,Redness Reduction,10|55,SIGN
+64,Swelling Timeline,10|55,SIGN
+65,Bruising Around Tattoo,55|64,SIGN
+66,Abnormal Healing Signs,55,SIGN
+67,Excessive Swelling,64|66,SIGN
+68,Red Streaking,66|80,SIGN
+69,Pus Discharge,66|80,SIGN
+70,Fever Symptoms,66|80,SIGN
+71,Hot Skin Sensation,66|67,SIGN
+72,Foul Odor,66|69,SIGN
+73,Prolonged Pain,66,SIGN
+74,Spreading Redness,66|68,SIGN
+75,Allergic Reaction Signs,66,SIGN
+76,Raised Skin Bumps,75,SIGN
+77,Severe Itching,58|75,SIGN
+78,Ink Rejection,6|75,SIGN
+79,Medical Attention Triggers,66,SIGN
+80,Infection Symptoms,20|66,SIGN
+81,When to See a Doctor,79|80,SIGN
+82,Urgent Care Situations,81,SIGN
+83,Prohibited Activities,1|7,REST
+84,Swimming Restriction,83|25,REST
+85,Bathtub Soaking,83|25,REST
+86,Hot Tub Avoidance,83|85,REST
+87,Ocean Water Exposure,84,REST
+88,Pool Chlorine Risks,84,REST
+89,Direct Sun Exposure,83|169,REST
+90,Tanning Beds,89,REST
+91,Scratching Prevention,58|83,REST
+92,Picking Scabs,60|91,REST
+93,Tight Clothing Friction,83|120,REST
+94,Exercise During Healing,83,REST
+95,Sweat Management,94,REST
+96,Heavy Lifting Impact,94,REST
+97,Pre-Appointment Prep,,PREP
+98,Hydration Importance,97,PREP
+99,Water Intake Guidelines,98,PREP
+100,Hydration Timeline,98|99,PREP
+101,Skin Hydration Benefits,98|3,PREP
+102,Nutrition for Healing,97|2,PREP
+103,Protein Requirements,102,PREP
+104,Vitamin C Benefits,102,PREP
+105,Zinc for Wound Healing,102,PREP
+106,Foods to Avoid,102,PREP
+107,Alcohol Avoidance,97|106,PREP
+108,Caffeine Moderation,106,PREP
+109,Anti-Inflammatory Foods,102,PREP
+110,Pre-Session Meals,102|111,PREP
+111,Blood Sugar Stability,102,PREP
+112,Skin Preparation,97|3,PREP
+113,Exfoliation Before Tattoo,112,PREP
+114,Shaving Tattoo Area,112,PREP
+115,Moisturizing Before,112|35,PREP
+116,Clean Skin Importance,112|22,PREP
+117,No Lotions Day-Of,112|115,PREP
+118,Sun Exposure Before,112|169,PREP
+119,Sunburn Prevention,118,PREP
+120,Clothing Strategies,97,PREP
+121,Loose Fitting Clothes,120,PREP
+122,Dark Colored Fabrics,120,PREP
+123,Breathable Materials,120|121,PREP
+124,Cotton Recommendations,123,PREP
+125,Clothes for Placement,120,PREP
+126,Arm Tattoo Clothing,125,PREP
+127,Leg Tattoo Clothing,125,PREP
+128,Torso Tattoo Clothing,125,PREP
+129,Back Tattoo Clothing,125,PREP
+130,Sleeping Positions,120|129,PREP
+131,Clean Sheets Protocol,22|130,PREP
+132,Pain Management,97,PAIN
+133,Pain Expectation,132,PAIN
+134,Pain Tolerance Factors,132|133,PAIN
+135,Numbing Creams,132,PAIN
+136,OTC Pain Relievers,132,PAIN
+137,Ibuprofen Caution,136|156,PAIN
+138,Acetaminophen Use,136,PAIN
+139,Breathing Techniques,132,PAIN
+140,Distraction Methods,132,PAIN
+141,Music During Session,140,PAIN
+142,Conversation Benefits,140,PAIN
+143,Break Requests,132|133,PAIN
+144,Pain by Body Area,132|3,PAIN
+145,Sensitive Areas,144,PAIN
+146,Less Painful Areas,144,PAIN
+147,Health Screening,97,HLTH
+148,Medical Conditions,147,HLTH
+149,Diabetes Considerations,148|2,HLTH
+150,Immune Disorders,148|20,HLTH
+151,Bleeding Disorders,148,HLTH
+152,Skin Conditions,148|3,HLTH
+153,Eczema Management,152,HLTH
+154,Psoriasis Concerns,152,HLTH
+155,Medication Effects,147,HLTH
+156,Blood Thinners,155|151,HLTH
+157,Immunosuppressants,155|150,HLTH
+158,Accutane Restrictions,155|152,HLTH
+159,Pregnancy Cautions,147,HLTH
+160,Illness Timing,147,HLTH
+161,Recent Surgery,147|2,HLTH
+162,Vaccination Timing,147,HLTH
+163,Allergy Disclosure,147|75,HLTH
+164,Session Readiness,97|147,HLTH
+165,Preparation Checklist,164,HLTH
+166,Rest Before Session,164,HLTH
+167,Mental Preparation,164,HLTH
+168,Eating Before Session,110|164,HLTH
+169,UV Protection,1,LONG
+170,Sunscreen for Tattoos,169|19,LONG
+171,SPF Requirements,170,LONG
+172,Mineral Sunscreen,170,LONG
+173,Chemical Sunscreen,170,LONG
+174,Reapplication Schedule,170|171,LONG
+175,Sun Protective Clothing,169,LONG
+176,UV Damage Effects,169|6,LONG
+177,Fading Prevention,176|170,LONG
+178,Color Longevity,177|179,LONG
+179,Long-Term Maintenance,1|19,LONG
+180,Ongoing Moisturizing,179|35,LONG
+181,Skin Health Routine,179|180,LONG
+182,Annual Skin Checks,179,LONG
+183,Touch-Up Planning,179,LONG
+184,Touch-Up Timing,183|19,LONG
+185,Color Refresh,183|178,LONG
+186,Line Touch-Ups,183,LONG
+187,Aging Skin Effects,179|3,LONG
+188,Weight Changes Impact,179|187,LONG
+189,Stretch Mark Prevention,188,LONG
+190,Scar Tissue Care,179|2,LONG
+191,Multiple Tattoo Care,179,LONG
+192,Session Spacing,191|7,LONG
+193,Adjacent Tattoo Healing,191|192,LONG
+194,Cover-Up Aftercare,191|13,LONG
+195,Personalized Care Plans,179,LONG
+196,Body Area Protocols,195|144,LONG
+197,Size-Based Aftercare,195|7,LONG
+198,Style-Based Care,195,LONG
+199,Seasonal Considerations,195|169,LONG
+200,Aftercare Troubleshooting,66|195,LONG

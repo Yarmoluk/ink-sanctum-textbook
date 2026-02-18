@@ -1,0 +1,10 @@
+{
+  "title": "Ink Sanctum Tattoo Aftercare & Preparation Professional Guide",
+  "description": "A comprehensive learning graph covering tattoo preparation, aftercare protocols, healing phases, infection prevention, product selection, and long-term maintenance for adult continuing education.",
+  "creator": "Ink Sanctum",
+  "date": "2026-01-25",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}
